@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+}
+
+body {
+  background-color: #283044;
+}
+
+/* Header y Nav */
+header {
+  height: 100vh;
+}
+
+h1 {
+  padding: 25px 0 0 15px;
+  color: #bfa89e;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+header p {
+  color: #bfa89e;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin: 5px 0 0 15px;
+}
+
+nav {
+  color: white;
+  margin: 35px 0 0 15px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li a {
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #bfa89e;
+  font-weight: 700;
+  transition: ease-in 0.2s;
+}
+
+/* Sections */
+section {
+  position: relative;
+  height: 100vh;
+  padding: 10px 0 0 25px;
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+h2 {
+  color: white;
+  font-size: 1.5rem;
+}
+
+#about-me {
+  background-color: #bfa89e;
+}
+
+.description-about-me {
+  font-size: 1.6rem;
+}
+
+/* Work Experience */
+#work-experience {
+  background-color: #283044;
+}
+
+h3.company {
+  color: #bfa89e;
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin: 15px 0 0 15px;
+}
+
+p.dates {
+  margin: 0px 0 0px 15px;
+  color: white;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+p.position {
+  margin: 0px 0 10px 15px;
+  color: white;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+p.tasks {
+  margin: 0px 15px;
+  color: white;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+#my-work {
+  background-color: #bfa89e;
+}
+
+
+/* Botón de Scroll to Top */
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99; /* Asegura que el botón esté por encima de otros elementos */
+  color: white;
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  font-size: 30px;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0; /* Comienza oculto */
+}
+
+
+/* Mostrar el botón cuando la página se desplaza hacia abajo */
+#scrollToTopBtn.show {
+  opacity: 1;
+}
